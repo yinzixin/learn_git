@@ -54,4 +54,11 @@ To https://github.com/yinzixin/Notes.git
  * [new branch]      master -> master
 
 If you use https to push changes, it will ask you to input your user name and password.
+Use config to set password cache and timeout (second) of the cache.
+ git config --global credential.helper 'cache --timeout=864000'
 
+TODO:
+1. learn git password cache
+2. rename
+3. read articles about markdown and change this artile into markdown style.
+4. learn more about gist
