@@ -7,7 +7,7 @@ yin@WorkLap:~/Gits/learn_git$ git config --global core.editor vim
 
 #2. Clone a remoting repository
 
-``
+```
 yin@WorkLap:~/Gits$ git clone https://github.com/yinzixin/learn_git.gitCloning into 'learn_git'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
