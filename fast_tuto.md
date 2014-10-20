@@ -1,21 +1,24 @@
-1. First Use Setup
+#1. First Use Setup
 yin@WorkLap:~/Gits/learn_git$ git config --global user.name "Yin Zixin"
 yin@WorkLap:~/Gits/learn_git$ git config --global user.email "yinzixin1985@hotmail.com"
 yin@WorkLap:~/Gits/learn_git$ git config --global core.editor vim
 
-1. Clone a remoting repository
+#2. Clone a remoting repository
 
+'''
 yin@WorkLap:~/Gits$ git clone https://github.com/yinzixin/learn_git.gitCloning into 'learn_git'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
 Checking connectivity... done.
-
+'''
 This will create a folder.
+'''
 yin@WorkLap:~/Gits$ ls
 learn_git
+'''
 
-1. Show Status of a repository
+#3. Show Status of a repository
 yin@WorkLap:~/Gits/learn_git$ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -27,7 +30,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-1. Stage Changed file 
+#4. Stage Changed file 
 yin@WorkLap:~/Gits/learn_git$ git add fast_tuto.txt
 yin@WorkLap:~/Gits/learn_git$ git status
 On branch master
@@ -38,10 +41,10 @@ Changes to be committed:
 
 	new file:   fast_tuto.txt
 
-1. Commit staged file
-git commit
+#5. Commit staged file
+	git commit
 
-1. Push commited changes to remote server
+#6. Push commited changes to remote server
 yin@WorkLap:~/Gits/learn_git$ git push origin master
 Username for 'https://github.com': yinzixin1985@hotmail.com
 Password for 'https://yinzixin1985@hotmail.com@github.com': 
@@ -57,8 +60,9 @@ If you use https to push changes, it will ask you to input your user name and pa
 Use config to set password cache and timeout (second) of the cache.
  git config --global credential.helper 'cache --timeout=864000'
 
+
+#7. rename
+ git mv fast_tuto.txt fast_tuto.md
+
 TODO:
-1. learn git password cache
-2. rename
-3. read articles about markdown and change this artile into markdown style.
 4. learn more about gist
