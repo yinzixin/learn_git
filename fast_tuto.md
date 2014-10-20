@@ -1,22 +1,25 @@
 #1. First Use Setup
 yin@WorkLap:~/Gits/learn_git$ git config --global user.name "Yin Zixin"
+
 yin@WorkLap:~/Gits/learn_git$ git config --global user.email "yinzixin1985@hotmail.com"
+
 yin@WorkLap:~/Gits/learn_git$ git config --global core.editor vim
 
 #2. Clone a remoting repository
 
-'''
+``
 yin@WorkLap:~/Gits$ git clone https://github.com/yinzixin/learn_git.gitCloning into 'learn_git'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
 Checking connectivity... done.
-'''
+```
 This will create a folder.
-'''
+
+```
 yin@WorkLap:~/Gits$ ls
 learn_git
-'''
+```
 
 #3. Show Status of a repository
 yin@WorkLap:~/Gits/learn_git$ git status
